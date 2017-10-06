@@ -1,14 +1,18 @@
 #PiggyOnline_Gallery - featuring works from artist https://www.danyayu.com/
-<ul>Problem I’m trying to solve
+
+#Problem I’m trying to solve
+<ul>
 <li>Artist’s exposure to art collectors and vice versa</li>
 <li>Art is a form of expression and is for everyone</li>
 </ul>
 
-<ul>Solution
+#Solution
+<ul>
 <li>The creation of Piggy Online – an art gallery for any art loves to explore art items by artists.</li>
 <ul>
 
-<ul>Features
+#Features
+<ul>
 <li>Sign up page for users</li>
 <li>Login</li>
 <li>Logout</li>
