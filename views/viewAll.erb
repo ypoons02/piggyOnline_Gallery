@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+  </head>
+  <body>
+    <main>
+    <header>
+        <img src="https://previews.123rf.com/images/sila5775/sila57751506/sila5775150600223/40710210-Side-Piggy-bank-and-coin-cartoon-cute-logo-symbol-icon-graphic-vector--Stock-Vector.jpg" alt="">
+        <div class="companySlogan">
+        <h1>Piggy Online</h1>
+        <h4>The Piggy who discover a world of art with <%=@user%>
+        <form action="/session" method="post">
+          <input type="hidden" name="_method" value="delete">
+          <button>Logout</button>
+        </form>
+        </h4>
+        </div>
+      </header>
+      <div class="center">
+    <div class="centerButton">
+    <a href="../myLikes">Art you liked</a> <a href="../viewAll">Art you might like</a></h1>
+  </div>
+    <h1>Other pieces you might like</h1>
+    <%=@message%>
+    <%@artPiece.each do |art| %>
+      <article class="art">
+        <h2><%=art.name.titleize%> </h2>
+        <a href="/art/<%= art.id %>" onclick="window.open(this.href, 'mywin',
+        'left=20,top=20,width=350,height=350,toolbar=1,resizable=0'); return false;" >
+          <img src="<%= art.image_url %>" alt="">
+          </a>
+        </br><a href="/art/<%= art.id %>/changeToLiked">Like</a>
+      </article>
+    <%end %>
+  </div>
+  <footer>© 2013 Piggy Online, Inc. </footer>
+  </main>
+  </body>
+</html>

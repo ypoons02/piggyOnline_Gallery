@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+  </head>
+
+  <body>
+    <main>
+    <header>
+        <img src="https://previews.123rf.com/images/sila5775/sila57751506/sila5775150600223/40710210-Side-Piggy-bank-and-coin-cartoon-cute-logo-symbol-icon-graphic-vector--Stock-Vector.jpg" alt="">
+        <div class="companySlogan">
+        <h1>Piggy Online</h1>
+        <h4>The Piggy who discover a world of art</h4>
+        </div>
+      </header>
+    <div class="center">
+      <h2>Login</h2>
+      <h4>
+    <form action="/session" method="post">
+      <label for="">Email</label>
+      <input name="email" type="text">
+      <label for="">Password</label>
+      <input name="password" type="password">
+      <button>login</button>
+    </form>
+    <%= @message %>
+</h4>
+
+<h2>-- OR --</h2>
+
+<h2>Sign up</h2>
+<%= @messageSignup %>
+    <form action="/signup" method="post">
+      <h4>
+        <label for="">Email</label>
+        <input name="signUp_email" type="text">
+      </h4>
+      <h4>
+        <label for="">Continent</label>
+        <select name="signUp_country" type="text">
+          <option value="Asia">Asia</option>
+          <option value="Africa">Africa</option>
+          <option value="North America">North America</option>
+          <option value="South America">South America</option>
+          <option value="Antarctica">Antarctica</option>
+          <option value="Europe">Europe</option>
+          <option value="Australia">Australia</option>
+        </select>
+      </h4>
+
+      <h4>
+        <label for="">Birthdate</label>
+        <input name="signUp_birthdate" type="date"></br>
+      </h4>
+
+      <h4>
+      <label for="">Gender</label>
+      <select name="signUp_gender" type="text">
+        <option value="F">Female</option>
+        <option value="M">Male</option>
+      </select>
+     </h4>
+
+     <h4>
+      <label for="">Password</label>
+      <input name="signUp_password" type="password"> </br>
+     </h4>
+
+      <button>sign up</button>
+    </form>
+
+  </h4>
+  </div>
+  <footer>© 2013 Piggy Online, Inc. </footer>
+</main>
+  </body>
+</html>

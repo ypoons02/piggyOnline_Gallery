@@ -1,0 +1,132 @@
+body{
+  background-color: lightgrey;
+}
+
+main{
+  margin:10%;
+  background-color: white;
+}
+
+
+select {
+  background-color:white;
+}
+
+
+a {
+  text-decoration: none;
+  font-size: 12px;
+}
+
+
+
+button {
+  background-color: purple; /* Green */
+   border: none;
+   color: white;
+   /*padding: 10px 15px;*/
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+}
+header {
+  width: 100%;
+  background-color: white;
+  text-align: center;
+}
+
+header img {
+  width: 20%;
+  height: 20%;
+  display: inline-block;
+  vertical-align: top;
+  margin:0;
+  float: left;
+}
+
+.companySlogan {
+  text-align: center;
+  display: inline-block;
+}
+
+.centerButton a {
+  padding: 50px 1px;
+  width: 10%;
+  border: 1px solid;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: top;
+  border-color: white;
+  color: white;
+  background-color: purple;
+
+}
+.centerButton a:hover {
+  padding: 50px 1px;
+  width: 10%;
+  border: 1px solid;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: top;
+  border-color: white;
+  border-color: lightgrey;
+  background-color: white;
+  color: grey;
+}
+
+.companySlogan h1{
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 700%;
+  margin: 0px;
+}
+
+.companySlogan h4{
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 125%;
+  margin:0px;
+  margin-top: 5px;
+  text-align: right;
+  vertical-align: bottom;
+}
+
+.companySlogan h1, h4 {
+  vertical-align:middle;
+}
+
+
+
+.center {
+  padding-top: 5%;
+  text-align: center;
+  font-family:monospace;
+  font-stretch: semi-condensed;
+}
+
+.scores {
+  padding: 50px 1px;
+  width: 10%;
+  border: 1px solid;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: top;
+  border-color: lightgrey;
+  color: grey;
+}
+
+.flipCoin:hover {
+  border-color: grey;
+}
+
+footer{
+  text-align: center;
+  margin: 10%;
+  padding: 5%;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+}
