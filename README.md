@@ -8,7 +8,7 @@ Problem I’m trying to solve
 
 Solution
 <ul>
-<li>The creation of Piggy Online – an art gallery for any art loves to explore art items by artists.</li>
+<li>The creation of Piggy Online – an art gallery for any art lovers to explore art items by artists.</li>
 </ul>
 
 Features
